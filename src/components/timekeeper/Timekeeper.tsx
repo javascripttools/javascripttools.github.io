@@ -1,7 +1,7 @@
 import './timekeeper.scss';
 import * as React from 'react';
-import { Period } from '../../models/Period';
-import TimekeeperPeriodDialog from '../timekeeper-period-dialog/TimekeeperPeriodDialog';
+import { Period } from './models/Period';
+import TimekeeperPeriodDialog from './components/timekeeper-period-dialog/TimekeeperPeriodDialog';
 
 export interface ITimekeeperProps {}
 
