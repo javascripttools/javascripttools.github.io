@@ -25,6 +25,10 @@ body {
   color: var(--body-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 .sidebar-title {
   font-size: 1.35rem;
   font-weight: 600;
@@ -39,4 +43,8 @@ body {
 
 .pointer {
   cursor: pointer;
+}
+
+.iconify {
+  color: var(--icon-color);
 }

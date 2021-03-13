@@ -1,0 +1,36 @@
+.home-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 3rem;
+  justify-content: center;
+  align-content: center;
+
+  & .home-card {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    border-radius: 0.3rem;
+    box-shadow: rgba(13, 43, 90, 0.04) 0px 4px 4px 0px, rgba(13, 43, 90, 0.08) 0px 8px 32px 0px;
+
+    & .label {
+      font-size: 3rem;
+      font-weight: bold;
+      color: var(--color-blue);
+      margin-bottom: 2rem;
+    }
+
+    & .iconify {
+      font-size: 12rem;
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    grid-template-columns: auto;
+
+    & .home-card {
+      width: 35rem;
+    }
+  }
+}

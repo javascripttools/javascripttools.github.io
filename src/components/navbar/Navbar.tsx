@@ -1,5 +1,6 @@
 import './navbar.scss';
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 export interface INavbarProps {}
 
@@ -15,8 +16,10 @@ export default class Navbar extends React.Component<INavbarProps, INavbarState> 
   public render() {
     return (
       <div className='navbar-container'>
-        <img className='website-logo' src='/logo.png'></img>
-        <span className='website-name'>JS Tools</span>
+        <Link to='/' className='website-logo-container'>
+          <img className='website-logo' src='/logo.png'></img>
+          <span className='website-name'>JS Tools</span>
+        </Link>
       </div>
     );
   }

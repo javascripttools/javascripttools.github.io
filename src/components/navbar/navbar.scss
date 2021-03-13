@@ -12,6 +12,11 @@
   justify-content: flex-start;
   box-shadow: rgba(13, 43, 90, 0.04) 0px 4px 4px 0px, rgba(13, 43, 90, 0.08) 0px 8px 32px 0px;
 
+  & .website-logo-container {
+    display: flex;
+    align-items: center;
+  }
+
   & .website-logo {
     height: 2.5rem;
     margin-left: 1.8rem;
